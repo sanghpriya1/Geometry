@@ -17,9 +17,10 @@ public class ChangeInputStream {
 		return s;
 	}
 	public static void main(String[] args) {
-		String S = "[[0,0],[0,1],[0,-1]]";
+		String S = "[[8, 2], [2, 5],[2, 3], [2, 1],[8, 7],[2, 0],[0, 6],[1, 4]]";
 		
 		System.out.println(inputConversion(S));
+		
 	}
 
 }

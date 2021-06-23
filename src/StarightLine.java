@@ -1,7 +1,8 @@
 
 public class StarightLine {
 	public static void main(String[] args) {
-		int[][] coordinates = {{1,2},{2,3},{3,4},{4,5},{5,6},{6,7}};
+		
+		int[][] coordinates = {{0,0},{0,1},{0,-1}};
 		int len = coordinates.length;
         boolean ans = true;
         double slope = (coordinates[1][1] - coordinates[0][1])/(coordinates[1][0] - coordinates[0][0]); 
